@@ -1,0 +1,15 @@
+D:\Programming\Git\repos\codewars\bin\Debug\net6.0\codewars.exe
+D:\Programming\Git\repos\codewars\bin\Debug\net6.0\codewars.deps.json
+D:\Programming\Git\repos\codewars\bin\Debug\net6.0\codewars.runtimeconfig.json
+D:\Programming\Git\repos\codewars\bin\Debug\net6.0\codewars.dll
+D:\Programming\Git\repos\codewars\bin\Debug\net6.0\codewars.pdb
+D:\Programming\Git\repos\codewars\obj\Debug\net6.0\codewars.csproj.AssemblyReference.cache
+D:\Programming\Git\repos\codewars\obj\Debug\net6.0\codewars.GeneratedMSBuildEditorConfig.editorconfig
+D:\Programming\Git\repos\codewars\obj\Debug\net6.0\codewars.AssemblyInfoInputs.cache
+D:\Programming\Git\repos\codewars\obj\Debug\net6.0\codewars.AssemblyInfo.cs
+D:\Programming\Git\repos\codewars\obj\Debug\net6.0\codewars.csproj.CoreCompileInputs.cache
+D:\Programming\Git\repos\codewars\obj\Debug\net6.0\codewars.dll
+D:\Programming\Git\repos\codewars\obj\Debug\net6.0\refint\codewars.dll
+D:\Programming\Git\repos\codewars\obj\Debug\net6.0\codewars.pdb
+D:\Programming\Git\repos\codewars\obj\Debug\net6.0\codewars.genruntimeconfig.cache
+D:\Programming\Git\repos\codewars\obj\Debug\net6.0\ref\codewars.dll
