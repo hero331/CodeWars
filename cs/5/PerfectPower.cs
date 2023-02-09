@@ -18,6 +18,15 @@ public class PerfectPower
 {
     public static (int, int)? IsPerfectPower(int n)
     {
-        return (3,2);
+        int r = (int)Math.Sqrt(n);
+            for (int i = 2; i <= r; r--)
+            {
+                int d = Convert.ToInt32(Math.Log(n, r));
+                if (Math.Pow(r, d) == n)
+                {
+                    return (r, d);
+                }
+            }
+            return null;
     }
 }
