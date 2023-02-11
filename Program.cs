@@ -11,17 +11,12 @@ namespace CodeWars
     {
         static void Main(string[] args)
         {
-            Stopwatch stopWatch = new Stopwatch();
-            stopWatch.Start();
-            for (int i=2;i<40000;i++){
-                Console.WriteLine($"Result: {i} = {PerfectPower.IsPerfectPower(i)}");
-            }           
-            stopWatch.Stop();
-            TimeSpan ts = stopWatch.Elapsed;
-            string elapsedTime = String.Format("{0:00}:{1:00}:{2:00}.{3:00}",
-                ts.Hours, ts.Minutes, ts.Seconds,
-                ts.Milliseconds / 10);
-            Console.WriteLine("RunTime " + elapsedTime);
+            string[] map1 = {"XOOXO", "XOOXO", "OOOXO", "XXOXO", "OXOOO"};
+            Debug.WriteLine($"Result: = {LandPerimeter.Calculate(map1)}");
+            string[] map2 = {"XOOOO", "OOOOO", "OOOOO", "OOOOO", "OOOOO"};
+            Debug.WriteLine($"Result: = {LandPerimeter.Calculate(map2)}");
+            string[] map3 = {"OOOOO", "OOOOO", "OOOOO", "OOOOO", "OOOOO"};
+            Debug.WriteLine($"Result: = {LandPerimeter.Calculate(map3)}");
         }
     }
 }
