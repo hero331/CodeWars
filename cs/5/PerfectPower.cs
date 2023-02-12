@@ -13,20 +13,22 @@ IsPerfectPower(9) => (3,2)
 */
 
 using System;
-namespace CodeWars;
-public class PerfectPower
+namespace CodeWars
 {
-    public static (int, int)? IsPerfectPower(int n)
+    public class PerfectPower
     {
-        int r = (int)Math.Sqrt(n);
-            for (int i = 2; i <= r; r--)
-            {
-                int d = Convert.ToInt32(Math.Log(n, r));
-                if (Math.Pow(r, d) == n)
+        public static (int, int)? IsPerfectPower(int n)
+        {
+            int r = (int)Math.Sqrt(n);
+                for (int i = 2; i <= r; r--)
                 {
-                    return (r, d);
+                    int d = Convert.ToInt32(Math.Log(n, r));
+                    if (Math.Pow(r, d) == n)
+                    {
+                        return (r, d);
+                    }
                 }
-            }
-            return null;
+                return null;
+        }
     }
 }
